@@ -1,6 +1,6 @@
 REPORTER = "dot"
 
 test:
-	echo "TBD";
+	./node_modules/.bin/mocha --recursive --reporter ${REPORTER} --ignore-leaks
 
 .PHONY: test

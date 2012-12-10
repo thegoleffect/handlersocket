@@ -16,6 +16,7 @@
     "node-handlersocket": ">= 0.1.0"
   },
   "devDependencies": {
+    "chai": "1.4.0",
     "mocha": ">= 1.7.4"
   }
 }
